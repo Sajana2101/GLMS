@@ -21,5 +21,6 @@ namespace GLMS.Models
         public string Email { get; set; } = string.Empty;
 
         public ICollection<Contract> Contracts { get; set; } = new List<Contract>();
-    }
+
+            }
 }
