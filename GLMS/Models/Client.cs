@@ -22,5 +22,6 @@ namespace GLMS.Models
 
         public ICollection<Contract> Contracts { get; set; } = new List<Contract>();
 
+        
             }
 }
