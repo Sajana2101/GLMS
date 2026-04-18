@@ -20,6 +20,7 @@ namespace GLMS.Data
         {
             base.OnModelCreating(modelBuilder);
 
+
            
             modelBuilder.Entity<Client>()
                 .HasMany(c => c.Contracts)
